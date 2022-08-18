@@ -1171,7 +1171,7 @@ fn main() {
         .prepend_enum_name(false)
         .derive_eq(true)
         .size_t_is_usize(true)
-        .parse_callbacks(Box::new(Callbacks));d
+        .parse_callbacks(Box::new(Callbacks));
 
     // The input headers we would like to generate
     // bindings for.
